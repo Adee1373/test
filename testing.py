@@ -145,4 +145,5 @@ def main(page: Page):
     page.add(TextField())
 
 
-flet.app(target=main, port=os.getenv("PORT"), route_url_strategy="path")
+# flet.app(target=main, port=os.getenv("PORT"), route_url_strategy="path")
+flet.app(target=main)
